@@ -1,0 +1,14 @@
+{
+
+  "name": "module-spec",
+  "version": "0.1.0",
+  "description": "Commune Module Interface Spec",
+  "main": "build/index.js",
+  "repository": "git@github.com:agicommies/module-spec.git",
+  "author": "Kelvin Steiner <me@steinerkelvin.dev>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "private": true
+}
