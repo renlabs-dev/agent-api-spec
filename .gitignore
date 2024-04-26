@@ -1,5 +1,7 @@
 .direnv
 
+/build
+
 # Logs
 logs
 *.log
