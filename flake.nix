@@ -10,12 +10,14 @@
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = import nixpkgs { inherit system; };
-        nodejs = pkgs.nodejs_21;
+        nodejs = pkgs.nodejs_20;
+        yarn = pkgs.yarn;
       in
       {
         devShell = pkgs.mkShell {
           buildInputs = [
             nodejs
+            yarn
             # pkgs.nodePackages.yarn
           ];
           shellHook = ''
