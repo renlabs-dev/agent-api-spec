@@ -2,7 +2,7 @@
   description = "Torus Agent Interface Spec";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
     flake-utils.url = "github:numtide/flake-utils";
   };
 
@@ -18,7 +18,10 @@
           buildInputs = [
             nodejs
             yarn
-            # pkgs.nodePackages.yarn
+          ];
+          packages = [
+            pkgs.just
+            pkgs.biome
           ];
           shellHook = ''
           '';
