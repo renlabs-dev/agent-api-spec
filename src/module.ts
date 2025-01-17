@@ -41,8 +41,8 @@ export interface Address {
 
 // ==== Request ====
 
-//                     [HTTP / socket]
-// Commune Client ========================> Commune Module
+//              [HTTP / socket]
+// Client ==========================> Agent
 
 export type Timestamp = Brand<"Timestamp", string>;
 

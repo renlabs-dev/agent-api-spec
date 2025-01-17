@@ -2,7 +2,7 @@
   "name": "module-spec",
   "type": "module",
   "version": "0.1.0",
-  "description": "Commune Module Interface Spec",
+  "description": "Torus Agent Interface Spec",
   "main": "build/index.js",
   "repository": "git@github.com:agicommies/module-spec.git",
   "author": "Kelvin Steiner <me@steinerkelvin.dev>",

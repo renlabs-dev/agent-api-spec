@@ -1,5 +1,5 @@
 {
-  description = "Commune Module Interface Spec";
+  description = "Torus Agent Interface Spec";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
